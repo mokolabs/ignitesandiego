@@ -176,6 +176,13 @@ blockquote:after {
 }
 
 
+/* DESCRIPTION */
+
+.description a {
+  color: #333;
+}
+
+
 /* SIGNUP */
 
 #signup {
