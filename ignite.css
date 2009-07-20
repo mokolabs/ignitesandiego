@@ -1,6 +1,58 @@
+
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* TAGS */
+
 body {
   width: 722px;
-  margin: 0 auto;
+  margin: 30px auto;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #333;
@@ -12,6 +64,48 @@ h1, h2, p, ul, li {
   padding: 0;
   font-size: 1em;
 }
+
+blockquote {
+  margin: 0;
+  padding: 0 3.5em;
+  color: #999;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+}
+
+abbr {
+  border: 0;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote:before {
+  content: "\201c";
+  position: absolute;
+  top: -0.15em;
+  left: .15em;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+blockquote:after {
+  content: "\201d";
+  position: absolute;
+  top: -0.15em;
+  right: 0.55em;;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+
+/* LAYOUT */
 
 .header h1 {
   margin: 0 auto;
@@ -32,11 +126,31 @@ h1, h2, p, ul, li {
 .section h2 {
   width: 90px;
   position: absolute;
-  top: 0px;
+  top: 4px;
   left: 8px;
   color: #999;
   text-transform: lowercase;
-  font-size: 1.4em;
+  font-size: 1.25em;
+}
+
+#signup {
+  height: 100px;
+}
+
+#signup blockquote {
+  margin: 20px 0 0 0;
+}
+
+#twitter_div {
+  border: 8px solid #e5e5e5;  
+}
+
+#twitter_div h2 {
+  color: #ccc;
+}
+
+#twitter_update_list li {
+  margin: 0 0 1em 0;
 }
 
 .tweets {
@@ -73,45 +187,3 @@ h1, h2, p, ul, li {
   display: none;
 }
 
-blockquote {
-  margin: 0;
-  padding: 0 3.5em;
-  color: #999;
-  font-size: 1.2em;
-  font-weight: bold;
-  position: relative;
-}
-
-abbr {
-  border: 0;
-}
-
-blockquote p {
-  display: inline;
-}
-
-blockquote:before {
-  content: "\201c";
-  position: absolute;
-  top: -0.25em;
-  left: 0;
-  font-size: 5em;
-  margin: 0;
-  padding: 0;
-  color: #ddd;
-}
-
-blockquote:after {
-  content: "\201d";
-  position: absolute;
-  top: -0.25em;
-  right: 0.5em;;
-  font-size: 5em;
-  margin: 0;
-  padding: 0;
-  color: #ddd;
-}
-
-#twitter_update_list li {
-  margin: 0 0 1em 0;
-}
