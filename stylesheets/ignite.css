@@ -201,6 +201,19 @@ blockquote:after {
   width: 390px;
 }
 
+@-moz-document url-prefix() {
+  /* oh, silly firefox */
+  blockquote:before {
+    display: none;
+  }
+  blockquote:after {
+    display: none;
+  }
+  .signup blockquote {
+    margin-left: -40px;
+  }
+}
+
 
 /* TWITTER */
 
