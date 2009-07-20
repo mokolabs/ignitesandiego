@@ -1,0 +1,117 @@
+body {
+  width: 722px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  font-size: 1.2em;
+}
+
+h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.header h1 {
+  margin: 0 auto;
+  padding: 0;
+  width: 400px;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 8px 8px 8px 100px;
+  border: 8px solid #bfbfbf;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  position: relative;
+}
+
+.section h2 {
+  width: 90px;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  color: #999;
+  text-transform: lowercase;
+  font-size: 1.4em;
+}
+
+.tweets {
+  border-color: #e5e5e5;
+}
+
+.tweets h2 {
+  color: #d0d0d0;;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section p+p {
+  margin: 1em 0 0 0;
+}
+
+.adr .street-address,
+.adr .links {
+  display: block;
+}
+
+.adr .links {
+  color: #999;
+}
+
+.adr .links a {
+  color: #999;
+  text-decoration: none;
+}
+
+.summary {
+  display: none;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 3.5em;
+  color: #999;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+}
+
+abbr {
+  border: 0;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote:before {
+  content: "\201c";
+  position: absolute;
+  top: -0.25em;
+  left: 0;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+blockquote:after {
+  content: "\201d";
+  position: absolute;
+  top: -0.25em;
+  right: 0.5em;;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+#twitter_update_list li {
+  margin: 0 0 1em 0;
+}
