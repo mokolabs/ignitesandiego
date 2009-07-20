@@ -56,13 +56,22 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #333;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
   font-size: 1em;
+}
+
+a {
+  color: #bfbfbf;
+}
+
+a:hover {
+  color: #aaa;
+  text-decoration: none;
 }
 
 blockquote {
@@ -109,13 +118,13 @@ blockquote:after {
 
 .header h1 {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 10px 0;
   width: 400px;
 }
 
 .section {
   margin: 20px 0;
-  padding: 8px 8px 8px 100px;
+  padding: 12px 8px 12px 100px;
   border: 8px solid #bfbfbf;
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -126,48 +135,27 @@ blockquote:after {
 .section h2 {
   width: 90px;
   position: absolute;
-  top: 4px;
+  top: 10px;
   left: 8px;
   color: #999;
   text-transform: lowercase;
   font-size: 1.25em;
 }
 
-#signup {
-  height: 100px;
-}
-
-#signup blockquote {
-  margin: 20px 0 0 0;
-}
-
-#twitter_div {
-  border: 8px solid #e5e5e5;  
-}
-
-#twitter_div h2 {
-  color: #ccc;
-}
-
-#twitter_update_list li {
-  margin: 0 0 1em 0;
-}
-
-.tweets {
-  border-color: #e5e5e5;
-}
-
-.tweets h2 {
-  color: #d0d0d0;;
-}
-
 .section ul {
   list-style-type: none;
+}
+
+.section p {
+  line-height: 1.2em;
 }
 
 .section p+p {
   margin: 1em 0 0 0;
 }
+
+
+/* MICROFORMATS */
 
 .adr .street-address,
 .adr .links {
@@ -187,3 +175,45 @@ blockquote:after {
   display: none;
 }
 
+
+/* SIGNUP */
+
+#signup {
+  height: 100px;
+}
+
+#signup blockquote {
+  margin: 20px 0 0 0;
+  width: 390px;
+}
+
+
+/* TWITTER */
+
+#twitter_div {
+  border: 8px solid #e5e5e5;
+  height: 100px;
+}
+
+#twitter_div h2 {
+  color: #ccc;
+}
+
+#twitter_link {
+  display: block;
+  float: right;
+  width: 170px;
+}
+
+#twitter_update_list li {
+  clear: right;
+  margin: 0 0 1em 0;
+}
+
+.tweets {
+  border-color: #e5e5e5;
+}
+
+.tweets h2 {
+  color: #d0d0d0;;
+}
