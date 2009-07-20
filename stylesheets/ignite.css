@@ -155,7 +155,14 @@ blockquote:after {
 }
 
 
-/* MICROFORMATS */
+/* WHAT */
+
+.what a {
+  color: #333;
+}
+
+
+/* WHEN */
 
 .adr .street-address,
 .adr .links {
@@ -176,20 +183,20 @@ blockquote:after {
 }
 
 
-/* DESCRIPTION */
+/* WHERE */
 
-.description a {
-  color: #333;
+.where a:hover {
+  text-decoration: underline;
 }
 
 
 /* SIGNUP */
 
-#signup {
+.signup {
   height: 100px;
 }
 
-#signup blockquote {
+.signup blockquote {
   margin: 20px 0 0 0;
   width: 390px;
 }
@@ -197,12 +204,12 @@ blockquote:after {
 
 /* TWITTER */
 
-#twitter_div {
+.tweets {
   border: 8px solid #e5e5e5;
   height: 100px;
 }
 
-#twitter_div h2 {
+.tweets h2 {
   color: #ccc;
 }
 
@@ -217,10 +224,3 @@ blockquote:after {
   margin: 0 0 1em 0;
 }
 
-.tweets {
-  border-color: #e5e5e5;
-}
-
-.tweets h2 {
-  color: #d0d0d0;;
-}

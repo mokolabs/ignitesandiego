@@ -1,0 +1,19 @@
+
+/* .section h2s are screwy */
+.what h2,
+.when h2,
+.where h2 {
+  margin-left: -100px;
+  margin-top: 8px;
+}
+
+/* Blockquote position could be improved */
+.signup blockquote {
+  margin: 15px 0 0 -50px;
+}
+
+/* Paragraph adjacent selector is blowing up */
+.what p strong {
+  display: block;
+  margin: 20px 0 0 0;
+}
