@@ -224,3 +224,10 @@ blockquote:after {
   margin: 0 0 1em 0;
 }
 
+#tweetie {
+  float: left;
+  display: block;
+  position: absolute;
+  margin: 30px 0 0 5px;
+  left: 0;
+}
