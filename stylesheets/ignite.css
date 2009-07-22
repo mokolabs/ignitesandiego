@@ -236,6 +236,10 @@ blockquote:after {
   text-align: right;
 }
 
+#twitter_update_list {
+  margin: 25px 0 0 0;
+}
+
 #twitter_update_list li {
   clear: right;
   margin: 0 0 1em 0;
