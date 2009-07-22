@@ -154,10 +154,7 @@ blockquote:after {
   margin: 1em 0 0 0;
 }
 
-
-/* WHAT */
-
-.what a {
+.section a {
   color: #333;
 }
 
@@ -226,10 +223,17 @@ blockquote:after {
   color: #ccc;
 }
 
+.tweets a {
+  color: #333;
+}
+
 #twitter_link {
+  color: #999;
   display: block;
   float: right;
-  width: 170px;
+  font-size: .8em;
+  width: 150px;
+  text-align: right;
 }
 
 #twitter_update_list li {
