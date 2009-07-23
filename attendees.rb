@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'RubyGems'
+require 'rubygems'
 require 'twitter'
 
 Twitter::Search.new('Just signed up for @ignitesandiego').each do |r|
