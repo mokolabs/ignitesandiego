@@ -52,7 +52,7 @@ table {
 
 body {
   width: 722px;
-  margin: 30px auto;
+  margin: 30px auto 40px auto;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #333;
@@ -200,6 +200,7 @@ blockquote:after {
 }
 
 .signup blockquote a {
+  color: #aaa;
   text-decoration: none;
 }
 
@@ -242,7 +243,7 @@ dt {
 }
 
 .tweets a {
-  color: #333;
+  color: #777;
 }
 
 #twitter_link {
@@ -260,6 +261,7 @@ dt {
 
 #twitter_update_list li {
   clear: right;
+  color: #777;
   margin: 0 0 1em 0;
 }
 
