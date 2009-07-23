@@ -200,6 +200,7 @@ blockquote:after {
 }
 
 .signup blockquote a {
+  color: #aaa;
   text-decoration: none;
 }
 
