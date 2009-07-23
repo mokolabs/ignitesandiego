@@ -166,19 +166,20 @@ blockquote:after {
   display: block;
 }
 
-.adr .links {
-  color: #999;
-}
-
-.adr .links a {
-  color: #999;
-  text-decoration: none;
-}
-
 .summary {
   display: none;
 }
 
+/* WHEN AND WHERE */
+
+.links {
+  color: #999;
+}
+
+.links a {
+  color: #999;
+  text-decoration: none;
+}
 
 /* WHERE */
 
