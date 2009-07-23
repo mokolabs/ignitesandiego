@@ -83,9 +83,9 @@
     </div>
     <div class="signup section">
       <h2>Signup</h2>
-      <p>Just <a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.">send</a> the following tweet:</p>
+      <p>Just <a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">send</a> the following tweet:</p>
       <blockquote>
-        <p><a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.">Just signed up for @ignitesandiego. [Your message here]</a></p>
+        <p><a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">Just signed up for @ignitesandiego. [Your message here]</a></p>
       </blockquote>
     </div>
     <div class="tweets section">
