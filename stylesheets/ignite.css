@@ -220,6 +220,15 @@ blockquote:after {
   }
 }
 
+/* WHO */
+
+dt {
+  font-weight: bold;
+}
+
+#speaking, #attending {
+  margin-top: 1em;
+}
 
 /* TWITTER */
 
