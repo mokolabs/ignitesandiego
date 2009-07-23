@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/bin/ruby attendees.rb > attendees.inc
+/usr/bin/ruby /home/deploy/public_html/ignitesandiego/public/attendees.rb > /home/deploy/public_html/ignitesandiego/public/attendees.inc
