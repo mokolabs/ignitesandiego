@@ -198,6 +198,14 @@ blockquote:after {
   width: 390px;
 }
 
+.signup blockquote a {
+  text-decoration: none;
+}
+
+.signup blockquote a:hover {
+  text-decoration: underline;
+}
+
 @-moz-document url-prefix() {
   /* oh, silly firefox */
   blockquote:before {
