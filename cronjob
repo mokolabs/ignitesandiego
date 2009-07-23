@@ -1,3 +1,5 @@
 #!/bin/sh
 
-/usr/bin/ruby /home/deploy/public_html/ignitesandiego/public/attendees.rb > /home/deploy/public_html/ignitesandiego/public/attendees.inc
+PUBLIC=/home/deploy/public_html/ignitesandiego/public
+
+/usr/bin/ruby $PUBLIC/attendees.rb > $PUBLIC/attendees.inc
