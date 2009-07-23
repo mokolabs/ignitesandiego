@@ -59,6 +59,28 @@
         </span>
       </p>
     </div>
+    <div class="who section dtstart">
+      <h2>Who</h2>
+      <dl>
+        <dt>Organizing</dt>
+        <dd>
+          <span class="organizer vcard"><a href="http://mokolabs.com/"
+          class="url fn">Patrick Crowley</a></span>, <span
+          class="organizer vcard"><a href="http://www.lisabrewster.com/"
+          class="url fn">Lisa Brewster</a></span>, <span
+          class="organizer vcard"><a href="http://edward.oconnor.cx/"
+          class="url fn">Edward O&#8217;Connor</a></span>
+        </dd>
+        <!--
+        <dt id="speaking">Speaking</dt>
+        <dd></dd>
+        -->
+        <dt id="attending">Attending</dt>
+        <dd>
+          <!--#include virtual="/attendees.inc" -->
+        </dd>
+      </dl>
+    </div>
     <div class="signup section">
       <h2>Signup</h2>
       <p>Just <a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">send</a> the following tweet:</p>
