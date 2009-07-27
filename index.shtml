@@ -40,10 +40,12 @@
     <div class="when section dtstart">
       <h2>When</h2>
       <p>
-        <strong><abbr class="value" title="2009-08-12">August 12th, 2009</abbr></strong>
+        <strong><abbr class="value-title" title="2009-08-12">August
+        12th, 2009</abbr></strong>
       </p>
       <ul>
-        <li><abbr class="value" title="19:00">7pm</abbr> &#8211; Doors open</li>
+        <li><abbr class="value-title" title="19:00">7pm</abbr> &#8211;
+        Doors open</li>
         <li>8pm &#8211;  Talks start</li>
         <li>11pm &#8211; We finish!</li>
       </ul>
