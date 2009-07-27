@@ -2,4 +2,4 @@
 
 PUBLIC=/home/deploy/public_html/ignitesandiego/public
 
-/usr/bin/ruby $PUBLIC/attendees.rb > $PUBLIC/attendees.inc
+/usr/bin/ruby $PUBLIC/attendees.rb
