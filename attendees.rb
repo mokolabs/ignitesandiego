@@ -25,8 +25,8 @@ Twitter::Search.new('signed up for @ignitesandiego').per_page(100).each do |r|
   attendees << r.from_user
 end
 
-# Lowercase all attendee names
-attendees = attendees.map { |attendee| attendee.downcase }.sort
+# Sort attendee names
+attendees = attendees.sort_by { |attendee| attendee.downcase }
 
 # Remove duplicates
 attendees = attendees.uniq
