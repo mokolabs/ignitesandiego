@@ -21,8 +21,8 @@ unless File.zero?('attendees.yml')
 end
 
 # Grab new attendees
-Twitter::Search.new('signed up for @ignitesandiego').per_page(100).each do |r|
-  attendees << r.from_user
+Twitter::Search.new('signed up for @ignitesandiego').per_page(100).each do |tweet|
+  attendees << tweet.from_user
 end
 
 # Sort attendee names
