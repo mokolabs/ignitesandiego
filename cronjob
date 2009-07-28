@@ -1,5 +1,5 @@
 #!/bin/sh
 
-PUBLIC=/home/deploy/public_html/ignitesandiego/public
+cd /home/deploy/public_html/ignitesandiego/public
 
-/usr/bin/ruby $PUBLIC/attendees.rb
+/usr/bin/ruby attendees.rb
