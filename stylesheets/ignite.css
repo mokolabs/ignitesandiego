@@ -271,3 +271,26 @@ dt {
   margin: 30px 0 0 5px;
   left: 0;
 }
+
+
+/* SPONSORS */
+
+.sponsors {
+  border-color: #fff;
+  padding: 12px 8px;
+}
+
+.sponsors img {
+  margin: 0 30px 0 20px;
+}
+
+.sponsors p {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 0 20px;
+}
+
+.sponsors a {
+  color: #ccc;
+}
