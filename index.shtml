@@ -50,8 +50,10 @@
         <li>11pm &#8211; We finish!</li>
       </ul>
       <p class="links">
+        <a rel="alternate" href="http://facebook.com/event.php?eid=108456804260">facebook</a>
+        |
         <a rel="alternate" href="http://upcoming.yahoo.com/event/4048205/">upcoming</a>
-        &amp; 
+        |
         <a rel="alternate" href="http://eventful.com/sandiego/events/ignite-san-diego-/E0-001-023210964-2">eventful</a>
       </p>
     </div>
@@ -64,8 +66,9 @@
         <span class="locality">San Diego</span>, <span class="region">CA</span>
         <span class="postal-code">92101</span>
         <span class="links">
+          <a class="url" href="http://www.hivehaus.net/">website</a>
+          |
           <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=770+11th+Ave.,+San+Diego,+CA+92101&amp;sll=32.746126,-117.152662&amp;sspn=0.01386,0.017767&amp;ie=UTF8&amp;z=17">map</a>
-          &amp; <a class="url" href="http://www.hivehaus.net/">website</a>
         </span>
       </p>
     </div>
