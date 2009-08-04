@@ -170,6 +170,7 @@ blockquote:after {
   display: none;
 }
 
+
 /* WHEN AND WHERE */
 
 .links {
@@ -180,6 +181,11 @@ blockquote:after {
   color: #999;
   text-decoration: none;
 }
+
+.links a:hover {
+  text-decoration: underline;
+}
+
 
 /* WHERE */
 
@@ -254,6 +260,11 @@ dt {
   font-size: .8em;
   width: 150px;
   text-align: right;
+  text-decoration: none;
+}
+
+#twitter_link:hover {
+  text-decoration: underline;
 }
 
 #twitter_update_list {
