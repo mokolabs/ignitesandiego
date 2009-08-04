@@ -191,7 +191,7 @@ blockquote:after {
 /* SIGNUP */
 
 .signup {
-  height: 100px;
+  /* height: 100px; */
 }
 
 .signup blockquote {
@@ -221,6 +221,7 @@ blockquote:after {
   }
 }
 
+
 /* WHO */
 
 dt {
@@ -230,6 +231,7 @@ dt {
 #speaking, #attending {
   margin-top: 1em;
 }
+
 
 /* TWITTER */
 

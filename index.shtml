@@ -99,10 +99,11 @@
     </div>
     <div class="signup section">
       <h2>Signup</h2>
-      <p>Just <a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">send</a> the following tweet:</p>
+      <!-- <p>Just <a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">send</a> the following tweet:</p>
       <blockquote>
         <p><a href="http://twitter.com/home/?status=Just+signed+up+for+@ignitesandiego.%20">Just signed up for @ignitesandiego. [Your message here]</a></p>
-      </blockquote>
+      </blockquote> -->
+      <p>Signup is now closed. If you missed out, don't worry. The next Ignite San Diego is just a few months away.</p>
     </div>
     <div class="tweets section">
       <img id="tweetie" src="images/tweetie.png" alt="twitter" width="80" height="58" />
