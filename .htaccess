@@ -1,3 +1,0 @@
-# Let's hide .git stuff
-RewriteEngine On
-RewriteRule ^.git - [F,L]

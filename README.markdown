@@ -1,3 +1,5 @@
 # Ignite San Diego #
 
-This is the website for the first Ignite San Diego event.
+This is the web application that runs Ignite San Diego.
+
+Heroku + Sinatra + Twitter gem = crazy delicious.
