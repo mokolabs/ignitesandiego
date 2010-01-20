@@ -317,3 +317,7 @@ blockquote:after {
   font-size: 14px;
   margin-top: 6px;
 }
+
+#special_thanks a {
+  color: #666;
+}
