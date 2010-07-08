@@ -158,6 +158,11 @@ blockquote:after {
   color: #333;
 }
 
+.section h3 {
+  font-size: 18px;
+  margin: 12px 0 -6px 0;
+}
+
 
 /* WHEN */
 
@@ -237,6 +242,12 @@ blockquote:after {
 
 #speaking, #attending {
   margin-top: 1em;
+}
+
+
+/* SUBMIT TALKS */
+#submit_talks p {
+  margin: 12px 0;
 }
 
 
