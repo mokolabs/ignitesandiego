@@ -250,6 +250,9 @@ blockquote:after {
   margin: 12px 0;
 }
 
+#submit_talks strong {
+  color: #666;
+}
 
 /* TWITTER */
 
