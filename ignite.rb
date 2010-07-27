@@ -7,6 +7,10 @@ get '/' do
   erb :index
 end
 
+get '/guidelines' do
+  erb :guidelines
+end
+
 get '/talks' do
   erb :talks
 end

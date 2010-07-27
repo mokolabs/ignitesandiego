@@ -380,3 +380,30 @@ blockquote:after {
   text-align: center;
 }
 
+
+/* GUIDELINES */
+
+.guidelines {
+  margin-top: 130px;
+}
+
+.guidelines h3 {
+  margin: 0 0 12px 0;
+}
+
+.guidelines h4 {
+  margin: 12px 0;
+}
+
+.guidelines ol {
+  list-style: disc;
+  margin: 12px 0 12px 24px;
+}
+
+.guidelines ol li {
+  margin: 6px 0 6px 0;
+}
+
+.guidelines strong {
+  color: red;
+}
