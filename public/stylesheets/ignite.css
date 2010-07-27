@@ -254,6 +254,7 @@ blockquote:after {
   color: #666;
 }
 
+
 /* TWITTER */
 
 .tweets {
@@ -335,3 +336,34 @@ blockquote:after {
 #special_thanks a {
   color: #666;
 }
+
+
+/* TALKS */
+
+.talk {
+  margin: -10px 0 36px 0;
+}
+
+.talk .speaker {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.talk .speaker a {
+  color: #999;
+}
+
+.talk .description {
+  color: #555;
+  font-size: 14px;
+}
+
+.break {
+  border: 8px solid #eee;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin: -6px 0 36px 0;
+  text-align: center;
+}
+

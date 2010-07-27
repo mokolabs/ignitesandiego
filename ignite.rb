@@ -7,6 +7,10 @@ get '/' do
   erb :index
 end
 
+get '/talks' do
+  erb :talks
+end
+
 get '/signup' do
 
   # Let's get this party started!
