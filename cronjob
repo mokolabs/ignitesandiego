@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cd /home/deploy/public_html/ignitesandiego/public
-
-/usr/bin/ruby attendees.rb
