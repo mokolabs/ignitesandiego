@@ -163,6 +163,11 @@ blockquote:after {
   margin: 12px 0 -6px 0;
 }
 
+#logo_back {
+  float: left;
+  margin-left: -170px;
+}
+
 
 /* WHEN */
 
@@ -340,6 +345,10 @@ blockquote:after {
 
 /* TALKS */
 
+.talks {
+  margin-top: 130px;
+}
+
 .talk {
   margin: -10px 0 36px 0;
 }
@@ -347,6 +356,10 @@ blockquote:after {
 .talk .speaker {
   font-size: 14px;
   margin-top: 6px;
+}
+
+.talk .speaker a {
+  color: #999;
 }
 
 .talk .speaker a {
