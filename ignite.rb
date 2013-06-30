@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'twitter'
 require 'yaml'
 
 get '/' do
@@ -16,7 +15,7 @@ get '/talks' do
 end
 
 get '/signup' do
-
+=begin
   # Let's get this party started!
   attendees = Array.new
 
@@ -57,5 +56,5 @@ get '/signup' do
                "@<a href=\"http://twitter.com/#{attendee}\" class=\"url fn nickname\">" + 
                "#{attendee}</a></span>"
   end
-
+=end 
 end
