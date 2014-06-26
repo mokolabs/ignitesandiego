@@ -1,7 +1,4 @@
-require 'rubygems'
-require 'sinatra'
-require 'yaml'
-
+# ROUTES
 get '/' do
   erb :index
 end
