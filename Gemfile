@@ -3,4 +3,3 @@ ruby '2.1.2'
 
 gem 'foreman'
 gem 'sinatra'
-gem 'thin'
