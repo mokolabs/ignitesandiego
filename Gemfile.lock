@@ -23,3 +23,9 @@ PLATFORMS
 DEPENDENCIES
   foreman
   sinatra
+
+RUBY VERSION
+   ruby 2.7.7p221
+
+BUNDLED WITH
+   2.4.10
